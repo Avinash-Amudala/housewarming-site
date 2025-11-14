@@ -100,7 +100,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1.4 }}
         >
           <a
-            href="https://www.google.com/maps?q=16.588685,79.889959"
+            href="https://maps.app.goo.gl/ALBLQJecuzU6Cozy8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-amber-600 to-orange-600 text-white rounded-full text-lg font-semibold hover:from-amber-500 hover:to-orange-500 transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-amber-900/50"

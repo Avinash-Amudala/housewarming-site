@@ -32,7 +32,7 @@ export default function Footer() {
             <FaMapMarkerAlt className="text-3xl text-amber-500 mx-auto mb-3" />
             <h3 className="text-white font-semibold mb-2">{t('event.location')}</h3>
             <a
-              href="https://www.google.com/maps?q=16.588685,79.889959"
+              href="https://maps.app.goo.gl/ALBLQJecuzU6Cozy8"
               target="_blank"
               rel="noopener noreferrer"
               className="text-amber-400 hover:text-amber-300 transition-colors"
