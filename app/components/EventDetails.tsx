@@ -36,7 +36,7 @@ export default function EventDetails() {
     const event = {
       title: 'Amudala Family Gruhapravesam',
       description: 'Housewarming Ceremony - Gruhapravesam and Sri Satyanarayana Swamy Vratam',
-      location: 'https://www.google.com/maps?q=16.588685,79.889959',
+      location: 'https://www.google.com/maps?q=16.4827086,79.8840467',
       startDate: '2025-11-23T05:25:00',
       endDate: '2025-11-23T14:00:00',
     };
@@ -118,7 +118,7 @@ export default function EventDetails() {
           <h3 className="text-3xl md:text-5xl font-bold text-white mb-10 text-center">{t('event.location')}</h3>
           <div className="rounded-3xl overflow-hidden border-2 border-amber-900/30 shadow-2xl">
             <iframe
-              src="https://www.google.com/maps?q=16.588685,79.889959&output=embed"
+              src="https://www.google.com/maps?q=16.4827086,79.8840467&output=embed"
               width="100%"
               height="500"
               style={{ border: 0 }}
