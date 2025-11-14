@@ -18,7 +18,7 @@ const translations = {
     'hero.title': 'Gruhapravesam',
     'hero.subtitle': 'Amudala Family Housewarming Ceremony',
     'hero.date': '23 November 2025',
-    'hero.blessing': 'With the blessings of Lord Venkateswara and Goddess Lakshmi, we warmly welcome you to our Gruhapravesam',
+    'hero.blessing': 'With the blessings of Sri Varahi Ammavari, we warmly welcome you to our Gruhapravesam',
     'hero.mapsButton': 'Open in Google Maps',
 
     // Event Details
@@ -26,7 +26,7 @@ const translations = {
     'event.gruhapravesam': 'Gruhapravesam',
     'event.gruhapravesam.time': '05:25 AM',
     'event.gruhapravesam.desc': 'Sacred house entering ceremony',
-    'event.vratam': 'Sri Varahi Ammavari Vratam',
+    'event.vratam': 'Sri Satyanarayana Swamy Vratam',
     'event.vratam.time': '10:00 AM',
     'event.vratam.desc': 'Divine pooja ceremony',
     'event.lunch': 'Lunch',
@@ -95,7 +95,7 @@ const translations = {
     'hero.title': 'గృహప్రవేశం',
     'hero.subtitle': 'అముదాల కుటుంబ గృహప్రవేశ మహోత్సవం',
     'hero.date': '23 నవంబర్ 2025',
-    'hero.blessing': 'శ్రీ వెంకటేశ్వర స్వామి, శ్రీ లక్ష్మీ అమ్మవారి దయతో, మా గృహప్రవేశ మహోత్సవానికి మిమ్మల్ని హృదయపూర్వకంగా ఆహ్వానిస్తున్నాము',
+    'hero.blessing': 'శ్రీ వరాహి అమ్మవారి దయతో, మా గృహప్రవేశ మహోత్సవానికి మిమ్మల్ని హృదయపూర్వకంగా ఆహ్వానిస్తున్నాము',
     'hero.mapsButton': 'గూగుల్ మ్యాప్స్‌లో చూడండి',
 
     // Event Details
@@ -103,7 +103,7 @@ const translations = {
     'event.gruhapravesam': 'గృహప్రవేశం',
     'event.gruhapravesam.time': 'ఉదయం 5:25',
     'event.gruhapravesam.desc': 'పవిత్ర గృహప్రవేశ కార్యక్రమం',
-    'event.vratam': 'శ్రీ వరాహి అమ్మవారి వ్రతం',
+    'event.vratam': 'శ్రీ సత్యనారాయణ స్వామి వ్రతం',
     'event.vratam.time': 'ఉదయం 10:00',
     'event.vratam.desc': 'దివ్య పూజా కార్యక్రమం',
     'event.lunch': 'భోజనం',
