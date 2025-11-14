@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪔 Amudala Family Housewarming Website
 
-## Getting Started
+A beautiful, Apple-inspired website for your Gruhapravesam ceremony on **23 November 2025**.
 
-First, run the development server:
+## ✨ Features
+
+### 🎨 Design
+- **Apple-inspired aesthetics** with smooth animations and elegant transitions
+- **Futuristic gradient backgrounds** with amber/gold theme
+- **Floating particle effects** for visual appeal
+- **Custom scrollbar** with gradient colors
+- **Fully responsive** - perfect on mobile, tablet, and desktop
+
+### 📱 Functionality
+- **Hero Section** with animated entrance and divine blessings message
+- **Event Schedule** with detailed timeline:
+  - 🪔 Gruhapravesam: 05:25 AM
+  - 🌿 Sri Satyanarayana Swamy Vratam: 10:00 AM
+  - 🍛 Lunch: 12:30 PM onwards
+- **Google Maps Integration** with embedded map and direct link
+- **Add to Calendar** button for easy event saving
+- **Photo Gallery** with lightbox effect and smooth animations
+- **Family Section** with elegant photo showcase
+- **Smooth scroll animations** powered by Framer Motion
+
+## 🚀 Quick Start
+
+### View the Website Locally
 
 ```bash
+# Install dependencies (if not already done)
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000 in your browser
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Build for Production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+# Create optimized production build
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Start production server
+npm start
+```
 
-## Learn More
+## 🌐 Deployment Instructions
 
-To learn more about Next.js, take a look at the following resources:
+### Deploy to Vercel (Recommended - FREE & Easy)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Sign up at [vercel.com](https://vercel.com)**
+2. **Push code to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "Housewarming website ready"
+   git remote add origin YOUR_GITHUB_REPO_URL
+   git push -u origin main
+   ```
+3. **Import to Vercel** - Click "New Project" → Import repository → Deploy
+4. **Get your URL** - Vercel provides: `your-project.vercel.app`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+See [DEPLOYMENT.md](./DEPLOYMENT.md) for detailed instructions.
 
-## Deploy on Vercel
+## 🔗 Create Short URL & QR Code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Short URL**: Use [tinyurl.com](https://tinyurl.com) with alias `Amudalas`
+2. **QR Code**: Use [qr-code-generator.com](https://www.qr-code-generator.com/) (High Resolution, 300x300px)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📂 Project Structure
+
+```
+app/
+├── components/
+│   ├── Hero.tsx              # Landing section
+│   ├── EventDetails.tsx      # Schedule & map
+│   ├── Gallery.tsx           # Photo gallery
+│   ├── FamilySection.tsx     # Family photos
+│   └── Footer.tsx            # Footer
+├── globals.css               # Global styles
+├── layout.tsx                # Root layout
+└── page.tsx                  # Main page
+```
+
+## 🎨 Customization
+
+- **Event Details**: Edit `app/components/EventDetails.tsx`
+- **Photos**: Add to `public/` and update `app/components/Gallery.tsx`
+- **Colors**: Search for `amber` and `orange` in component files
+
+## 🛠️ Tech Stack
+
+- Next.js 14, TypeScript, Tailwind CSS, Framer Motion, React Icons
+
+## 📊 Build Status
+
+✅ Build successful | ✅ TypeScript passed | ✅ Ready for deployment
+
+---
+
+**Made with ❤️ for the Amudala Family Gruhapravesam**
+
+🪔 May Lord Venkateswara and Goddess Lakshmi bless your new home! 🪔
